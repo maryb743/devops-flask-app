@@ -9,3 +9,6 @@ def say_hello():
 @app.route('/about')
 def about():
 	return '<p>This flask app runs on Flask web framework</p><p><a href="https://flask.palletsprojects.com/">Flask website</a></p>'
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
